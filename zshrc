@@ -31,3 +31,10 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sa00445/Desktop/MSc/flask-and-gae/WeatherApp/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sa00445/Desktop/MSc/flask-and-gae/WeatherApp/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sa00445/Desktop/MSc/flask-and-gae/WeatherApp/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sa00445/Desktop/MSc/flask-and-gae/WeatherApp/google-cloud-sdk/completion.zsh.inc'; fi
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
